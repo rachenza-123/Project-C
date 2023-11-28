@@ -1,0 +1,29 @@
+#include <iostream>
+#include<map>
+#include<string>
+
+using namespace std;
+
+int main() {
+int randomNum=5;
+//set randomNum to int 5
+cout <<"int:"<<randomNum<<"\n";
+//print the integer from randomNum
+string Myname="rachenza";
+//set Myname to string rachenza
+cout <<"string:"<<Myname<<"\n";
+//print the string from Myname
+float Myfloat = 5.5;
+//set Myfloat to float 5.5
+cout << "float:" << Myfloat <<"\n";
+//print the float from Myfloat
+bool MyBoolean = true;
+//set MyBoolean to boolean true
+cout << "bool:" << MyBoolean <<"\n";
+//print the boolean in MyBoolean
+string items[3] = {"Blanket","Graphic Clothes","Shoes"};
+//create a list with strings of 3 strings
+cout <<items[2];
+//print the string in location 2
+return 0;
+}
